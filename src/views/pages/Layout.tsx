@@ -1,9 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
 import CustomRoutes from "routes/CustomRoutes";
 
 function Layout() {
     return (
+        <BrowserRouter>
         <div>
-
+            
             <header>
                 Header
             </header>
@@ -15,6 +17,7 @@ function Layout() {
             </footer>
 
         </div>
+        </BrowserRouter>
     )
 }
 
