@@ -1,7 +1,19 @@
+import CustomRoutes from "routes/CustomRoutes";
+
 function Layout() {
     return (
         <div>
-            Layout
+
+            <header>
+                Header
+            </header>
+
+                <CustomRoutes />
+
+            <footer>
+                Footer
+            </footer>
+
         </div>
     )
 }
