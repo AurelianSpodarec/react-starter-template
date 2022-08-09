@@ -5,6 +5,8 @@ Template based on create-react-app with an opinionated architecture to make star
 Work In progress.
 
 
+# Motivation
+Why this?
 
 # Directure Structure
 
@@ -37,6 +39,19 @@ Short brief what it is and why like put it like that
 
 ### Styles
 
+``` 
+/styles  
+├── /0-vendor       # 3rd party libraries i.e tailwindcss   
+├── /1-helpers      # mixins   
+├── /2-base         # global styles   
+├── /3-layouts      # global layouts such as: header, footer, nav, sidebar  
+├── /4-atoms        # Used for building blocks i.e button, input     
+├── /5-molecules    # Complex UI components i.e carousel     
+├── /5-organisms    # 
+├── cheat           # hot fixes - should be cleaned once a while  
+├── styles          # imports all above  
+ 
+
 Links to explain each choice of architecture:
 Sources: 
 
@@ -51,11 +66,39 @@ Sources:
 
 ## Templates
 
+
+## VSCode for efficiency
+
+
+
 Create default templates with keyboard
 
 
 # Methodology
 
+
+
+# Futher resources
+
+
+- Structuring 
+Brad Frost
+https://bradfrost.com/blog/post/atomic-web-design/  
+https://atomicdesign.bradfrost.com/table-of-contents/  
+
+- Naming
+Adam Wathan  
+https://github.com/adamwathan/laracon2017      
+https://www.youtube.com/watch?v=MF0jFKvS4SI    
+
+CSS Methodologies  
+[BEM](http://getbem.com/) - Block Element Modified  
+[SMACSS](http://smacss.com/) - Scalable and Modular Architecture for CSS  
+OOCSS - Object Oriented CSS  
+
+Other  
+https://betterprogramming.pub/avoiding-premature-software-abstractions-8ba2e990930a  
+  
 
 
 # Getting Started with Create React App
