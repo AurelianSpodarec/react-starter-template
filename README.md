@@ -1,6 +1,61 @@
 # React Starting Template
 
-Template based on create-react-app with an opinionated architecture.
+Template based on create-react-app with an opinionated architecture to make starting new react apps quicker!
+
+Work In progress.
+
+
+
+# Directure Structure
+
+## Main Structure
+
+```
+/src
+├── /__tests__      
+├── /config         # Text for the app
+├── /context   
+├── /hooks    
+├── /routes      
+├── /services       # Requests and API
+├── /store          # Global Redux store
+├── /styles  
+├── /types  
+├── /utils          # Common used functions
+├── /views          # Anything to do with UI  
+│   ├── atoms       # Used for building blocks i.e button, input   
+│   └── molecules   # Made from atoms i.e search bar  
+│   └── organisms   # Complex UI components i.e carousel   
+│   └── pages       # Respresents a page  
+```
+
+Short brief what it is and why like put it like that
+
+### Tests
+
+### Views
+
+### Styles
+
+Links to explain each choice of architecture:
+Sources: 
+
+# Workflow
+
+
+## GIT Commits
+
+
+## Branches
+
+
+## Templates
+
+Create default templates with keyboard
+
+
+# Methodology
+
 
 
 # Getting Started with Create React App
