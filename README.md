@@ -70,6 +70,19 @@ Sources:
 ## VSCode for efficiency
 
 
+## Function Namings
+
+### Pattern for naming common methods when to use what and the naming
+
+onClick  
+handleClick  
+handlerClick  
+
+setAnimal  
+removeAnimal  
+
+
+
 
 Create default templates with keyboard
 
@@ -99,6 +112,11 @@ OOCSS - Object Oriented CSS
 Other  
 https://betterprogramming.pub/avoiding-premature-software-abstractions-8ba2e990930a  
   
+
+
+
+# Contributions
+
 
 
 # Getting Started with Create React App
