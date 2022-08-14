@@ -50,7 +50,7 @@ Short brief what it is and why like put it like that
 ├── /5-organisms    # 
 ├── cheat           # hot fixes - should be cleaned once a while  
 ├── styles          # imports all above  
- 
+ ```
 
 Links to explain each choice of architecture:
 Sources: 
